@@ -1389,14 +1389,16 @@ public final class XMLConfigAdmin {
 					setClass(logger, null, "appender-", cs.getLogEngine().appenderClassDefintion("console"));
 					setClass(logger, null, "layout-", cs.getLogEngine().layoutClassDefintion("pattern"));
 				}
-				catch (PageException e) {}
+				catch (PageException e) {
+				}
 			}
 			else {
 				try {
 					setClass(logger, null, "appender-", cs.getLogEngine().appenderClassDefintion("resource"));
 					setClass(logger, null, "layout-", cs.getLogEngine().layoutClassDefintion("classic"));
 				}
-				catch (PageException e) {}
+				catch (PageException e) {
+				}
 
 				logger.setAttribute("appender-arguments", "path:" + path);
 			}
@@ -1627,8 +1629,8 @@ public final class XMLConfigAdmin {
 			}
 		}
 
-		if (!hasInsertAccess) throw new SecurityException("Unable to add a datasource connection, the maximum count of [" + maxLength + "] datasources has been reached. " 
-			+ " This can be configured in the Server Admin, under Security, Access");
+		if (!hasInsertAccess) throw new SecurityException("Unable to add a datasource connection, the maximum count of [" + maxLength + "] datasources has been reached. "
+				+ " This can be configured in the Server Admin, under Security, Access");
 
 		// Insert
 		Element el = doc.createElement("data-source");
@@ -1705,7 +1707,8 @@ public final class XMLConfigAdmin {
 				try {
 					OSGiUtil.uninstall(bl);
 				}
-				catch (BundleException e) {}
+				catch (BundleException e) {
+				}
 			}
 		}
 	}
@@ -1734,7 +1737,8 @@ public final class XMLConfigAdmin {
 				try {
 					OSGiUtil.uninstall(bl);
 				}
-				catch (BundleException e) {}
+				catch (BundleException e) {
+				}
 			}
 		}
 	}
@@ -1751,7 +1755,8 @@ public final class XMLConfigAdmin {
 			}
 			config.getStartups().remove(cd.getClassName());
 		}
-		catch (Exception e) {}
+		catch (Exception e) {
+		}
 	}
 
 	/*
@@ -1805,7 +1810,8 @@ public final class XMLConfigAdmin {
 				try {
 					OSGiUtil.uninstall(bl);
 				}
-				catch (BundleException e) {}
+				catch (BundleException e) {
+				}
 			}
 		}
 	}
@@ -1844,7 +1850,8 @@ public final class XMLConfigAdmin {
 				try {
 					OSGiUtil.uninstall(bl);
 				}
-				catch (BundleException e) {}
+				catch (BundleException e) {
+				}
 			}
 		}
 	}
@@ -6510,7 +6517,8 @@ public final class XMLConfigAdmin {
 				try {
 					tmp = new RHExtension(config, children[i]);
 				}
-				catch (Exception e) {}
+				catch (Exception e) {
+				}
 
 				if (tmp != null && ed.equals(tmp)) return tmp;
 			}
