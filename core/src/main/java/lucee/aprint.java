@@ -301,11 +301,11 @@ public class aprint {
 		else if (o instanceof Map) _eo(ps, (Map) o);
 		else if (o instanceof Collection) _eo(ps, (Collection) o);
 		else if (o instanceof Iterator) _eo(ps, (Iterator) o);
-		else if (o instanceof NamedNodeMap) _eo(ps, (NamedNodeMap) o);
+		else if (o instanceof NamedNodeMap) _eo(ps, o);
 		else if (o instanceof ResultSet) _eo(ps, (ResultSet) o);
-		else if (o instanceof Node) _eo(ps, (Node) o);
+		else if (o instanceof Node) _eo(ps, o);
 		else if (o instanceof Throwable) _eo(ps, (Throwable) o);
-		else if (o instanceof Attributes) _eo(ps, (Attributes) o);
+		else if (o instanceof Attributes) _eo(ps, o);
 		else if (o instanceof Cookie) {
 			Cookie c = (Cookie) o;
 			ps.println("Cookie(name:" + c.getName() + ";domain:" + c.getDomain() + ";maxage:" + c.getMaxAge() + ";path:" + c.getPath() + ";value:" + c.getValue() + ";version:"
@@ -317,7 +317,8 @@ public class aprint {
 			try {
 				ps.println(IOUtil.toString(is.getCharacterStream()));
 			}
-			catch (IOException e) {}
+			catch (IOException e) {
+			}
 			finally {
 				IOUtil.closeEL(r);
 			}

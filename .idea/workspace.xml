@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca3ba58b-b441-41ca-a272-92bfbe87a5db" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h5I1eTTp09jWGvAXiZJNh7bah1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca3ba58b-b441-41ca-a272-92bfbe87a5db" name="Default Changelist" comment="" />
+      <created>1599294312573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599294312573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1599294515733">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1599294515733" />
+    <state x="370" y="151" key="NewModule_or_Project.wizard" timestamp="1599294386222">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="151" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1599294386222" />
+    <state x="400" y="207" width="639" height="486" key="find.popup" timestamp="1599295781549">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="400" y="207" width="639" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599295781549" />
+  </component>
+</project>

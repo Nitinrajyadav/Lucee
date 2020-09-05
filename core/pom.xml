@@ -254,7 +254,14 @@
     	<artifactId>xml-apis</artifactId>
     	<version>1.4.1</version>
       <scope>provided</scope>
+      <exclusions>
+      <exclusion>
+      <groupId>xml-apis</groupId>
+      <artifactId>xml-apis</artifactId>
+      </exclusion>
+      </exclusions>
     </dependency>
+    
     <dependency>
        <groupId>backport.util</groupId>
        <artifactId>concurrent</artifactId>
